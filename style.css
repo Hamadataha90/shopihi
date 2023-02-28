@@ -13,7 +13,7 @@
 
     nav{display: flex; justify-content: space-between;
         align-items: center; 
-            }
+            flex-wrap: wrap;}
     nav ul a{text-decoration: none; color: blue;
     font-size: larger;  }
     nav ul a:hover {color: red;
@@ -21,7 +21,7 @@
         cursor: pointer; transform: translate(0,5px);}
 
 
-    nav .links{display: flex; align-items: center; }
+    nav .links{display: flex; align-items: center; flex-wrap: wrap;}
     nav .links{position: absolute;top: 30px;}
     nav ul{display: flex; }
     nav li{margin: 10px;
@@ -37,7 +37,7 @@
         text-decoration: none;
         font-size: 16px;
         cursor: pointer;
-        z-index: 100;}
+        z-index: 100; }
     nav button:hover{background-color: red;
           text-decoration: underline;
         cursor: pointer; transform: translate(0,5px);}
@@ -48,7 +48,7 @@
     .end-bar .par{position: relative;display: flex;
         justify-content: space-around;align-items: center;
             bottom:550px; left: 50px; font-size: 23px;
-        }
+            flex-wrap: wrap;}
         .end-bar .par .p{margin-left: -5%; }
         .end-bar .par .p span{color: blueviolet;}
         .end-bar .par .img1{margin-left: -20%;}
@@ -63,11 +63,11 @@
     margin: 0;
     height: 1000px;
     background-color: rgba(255, 255, 255, 0.503);
-    position: relative;}
+    position: relative; flex-wrap: wrap;}
 
     .container .deliver{position: absolute; top: 20px; right: 100px;}
     .container .fast{text-align: center; position: absolute;
-    left: 190px; top: 70px;}
+    left: 190px; top: 70px; flex-wrap: wrap;}
     .container .real{text-align: center; position: absolute;
     right: 350px; top: 180px;}
 
@@ -78,7 +78,8 @@
     left: 230px; top: 480px; font-size: 20px;color: white; }
 
     .container .round{position: relative;
-    top: 500px; display: flex; justify-content: space-around;}
+    top: 500px; display: flex; justify-content: space-around;
+    flex-wrap: wrap;}
 
     .container .round3{ text-align: center;}
 
@@ -92,7 +93,8 @@
     padding: 0;
     margin: 0;
     overflow: hidden; 
-position: relative;}
+position: relative;
+flex-wrap: wrap;}
 
 
     .footer .footback img{width: 110%;
@@ -102,10 +104,10 @@ position: relative;}
      }
 
      .footer .imgf{position: absolute;
-        right: 100px; bottom: 0;}
+        right: 100px; bottom: 0; }
 
     .footer .footall{position: absolute; 
-    bottom: 10px;}
+    bottom: 10px; flex-wrap: wrap;}
     
     .footer .play-store{display: flex;padding: 10px;
         justify-content: space-between;}
