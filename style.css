@@ -1,9 +1,10 @@
-    *{padding: 0;
+*{padding: 0;
     margin: 0;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+}
     /* heading */
     /* background */
-    .heading{height: 700px;}
+    .heading{height: 700px; }
     .heading .back img{width: 100%;
         overflow: hidden;
     height: 630px;
@@ -78,19 +79,22 @@
     .footer{height: 600px;
     padding: 0;
     margin: 0;
-    overflow: hidden;}
+    overflow: hidden; 
+position: relative;}
 
 
     .footer .footback img{width: 110%;
-    height: 950px;
+    height: 850px;
     margin-left: -25px;
-    position: relative;
-    overflow: hidden;}
+    position: absolute;
+     }
 
-    .footer .footall{position: absolute; top: 1850px;
-    right: 120px;
-    }
+     .footer .imgf{position: absolute;
+        right: 100px; bottom: 0;}
 
+    .footer .footall{position: absolute; 
+    bottom: 10px;}
+    
     .footer .play-store{display: flex;padding: 10px;
         justify-content: space-between;}
     .footer .play-store i{margin: 5px; color: blue;}
@@ -101,15 +105,13 @@
     list-style-type: none; }
     .footer ul a{text-decoration: none; color: white;}
 
-    .footer .foot-icons{position: relative;
-    bottom: 170px; left: -550px; }
 
     .footer .play-store .apple{display: flex;
         background-color: white; align-items: center;
     border-radius: 5px; width: 120px; text-align: center;}
     .footer .play-store .google{display: flex;
         background-color: white; align-items: center;
-        margin-right: 210px;
+        
     border-radius: 5px; width: 120px; text-align: center;}
 
 
