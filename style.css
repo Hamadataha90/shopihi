@@ -4,7 +4,7 @@
 }
     /* heading */
     /* background */
-    .heading{height: 700px; flex-wrap: wrap;}
+    .heading{height: 700px; }
     .heading .back img{width: 100%;
         overflow: hidden;
     height: 630px;
@@ -106,7 +106,7 @@ flex-wrap: wrap;}
         right: 100px; bottom: 0; }
 
     .footer .footall{position: absolute; 
-    bottom: 10px; flex-wrap: wrap;}
+    bottom: 10px; }
     
     .footer .play-store{display: flex;padding: 10px;
         justify-content: space-between;}
