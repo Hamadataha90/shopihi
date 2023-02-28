@@ -24,13 +24,18 @@
     padding: 10px; list-style-type: none;}
     nav img{width: 200px;}
 
-    nav button{padding: 5px 20px;
-    border-radius: 10px;
-    background-color: white;
-    border-color: white;
-    box-shadow: 1px 2px 2px white;}
+    nav button {
+        background-color: white;
+        border: none;
+        border-radius: 15px;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        z-index: 100;}
 
-    nav button{position: absolute; top:80px; right: 150px;}
+    nav button{position: absolute; top:75px; right: 150px;}
     /* end of navbar */
 
     .end-bar .par{position: relative;display: flex;
