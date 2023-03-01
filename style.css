@@ -125,9 +125,20 @@ flex-wrap: wrap;}
     .footer .play-store .apple{display: flex;
         background-color: white; align-items: center;
     border-radius: 5px; width: 120px; text-align: center;}
+    .footer .play-store .apple:hover{background-color: red;
+        text-decoration: underline;
+      cursor: pointer; transform: translate(0,5px);} 
+
+
+      .footer .play-store .google:hover{background-color: red;
+        text-decoration: underline;
+      cursor: pointer; transform: translate(0,5px);} 
+
     .footer .play-store .google{display: flex;
         background-color: white; align-items: center;
         
+        
+
     border-radius: 5px; width: 120px; text-align: center;}
 
 
